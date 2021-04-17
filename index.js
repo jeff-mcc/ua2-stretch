@@ -70,7 +70,7 @@ let cartItems = 0;
 function addToCart(){
     if (cartItems === 0){
         cartItems = 1;
-        cart.setAttribute('cart-display',cartItems);
+        cart.setAttribute('class','cart-display');
         cart.innerText = 'Your Cart: 1 item';
         main.appendChild(cart);
         // console.log(cartItems)
